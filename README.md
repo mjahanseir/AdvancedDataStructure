@@ -6,6 +6,8 @@
 - Hash Table
 
 
+<hr>
+
 ### BST
 Create a C# interface for the binary tree ADT:
 As with other ADTs, create() will produce a binary tree root which by definition will be empty; isEmpty() returns whether or not the tree contains any nodes; the three following methods are traversals, inorder(), preorder() and postorder() - we will visit these traversals when we implement the code; search() returns true or false depending on whether or not the element exists; delete() removes the node containing the element.
@@ -28,10 +30,12 @@ The C# signatures for a binary tree implementation will include:
       public void Postorder()  {...}
     }
     
-    ### AVL
+
+
+### AVL
 A balanced ordered binary tree is called an AVL tree (named after inventors Adelson-Velsky and Landis). To create and maintain an AVL tree, we need to monitor the height in each subtree. If during insert, or deletion, the difference between the height on the left and the the height on the right is greater than one, the tree is unbalanced and will not perform efficiently during searches. When an AVL tree becomes unbalanced, it must be re-balanced to maintain its efficiency. Re-balancing is not terribly complex but very important to searching.
 For our algorithms (insert and delete) to maintain a balanced tree, we need to add to each node a balance factor representing the difference of the balance factors of the subtrees below it. The balance factor of a node N (root of a subtree) is the height difference of the left subtree and the right subtree:
-          BalanceFactor(N) = Height(RightSubtree(N)) – Height(LeftSubtree(N))
+            BalanceFactor(N) = Height(RightSubtree(N)) – Height(LeftSubtree(N))
 A binary tree is defined to be an AVL tree if the invariant BalanceFactor(N) ∈ {–1,0,+1} holds for every node N in the tree. Otherwise the node and its subtrees represent a tree that is unbalanced.
 A node N with BalanceFactor(N) < 0 is called "left-heavy", one with BalanceFactor(N) > 0 is called "right-heavy", and one with BalanceFactor(N) = 0 is sometimes simply called "balanced".
       we consider the AVL balanced if the node N and its subtrees has a balance factor of 0 +/- 1. 
