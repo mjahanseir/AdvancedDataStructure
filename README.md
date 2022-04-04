@@ -96,5 +96,8 @@ With double hashing, the important idea is that the hash value is used to calcul
 There is an important issue to be aware of when using open addressing: how to handle deleted items. If we clear the spot where the item had been, any following Get operations can potentially fail because the initial Add for those items might have 'bounced' on that location and had to increment a second time to another location. Its important that these calculations remain deterministic even after deletions occur. The solution to this is to replace the deleted item with a placeholder that is neither a data value or an open location. This way, calculations for Get operations can still 'bounce' off of these in the same way as when the item was initially added.
 
 <hr>
+
+
 ## Linked List
+
 The linked list ADT is a very useful structure for many applications. It is more powerful than an array in C# because it can grow dynamically. Since an array is a fixed-size structure (it is fixed to whatever size you used to create it) it is rather inflexible for applications where the collection will grow or shrink frequently over time. A linked list on the other hand, stores two pieces of data for each element being stored: the element itself, and a link to the next element in the list. The component of the list that stores these data is often called a node. The link is represented in pictorial form as an arrow when in fact it is a reference to the next node. 
