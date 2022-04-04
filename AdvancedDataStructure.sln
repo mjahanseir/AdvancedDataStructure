@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{85B9F57C-246D-4E72-B3BB-1B775B74D74F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "..\..\GoogleDrive\[SDC]\[COSC604] Advanced Programming\COSC604_2022_02_18_AVL\DataStructures\BinarySearchTree\BinarySearchTree.csproj", "{0183BB27-880A-4ED2-B17F-5AA7A0E6B83B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{12072136-3D7A-4239-B7B2-B16D13BECFE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresCommon", "..\..\GoogleDrive\[SDC]\[COSC604] Advanced Programming\COSC604_2022_02_18_AVL\DataStructures\DataStructuresCommon\DataStructuresCommon.csproj", "{923BC52C-878A-4F56-B5F1-24499F8AD5D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{31B58B00-2209-4948-8B55-DCCE328C3405}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "..\..\GoogleDrive\[SDC]\[COSC604] Advanced Programming\COSC604_2022_01_19\COSC60420210119\LinkedList.csproj", "{3B600980-2668-4DF0-85D3-403D78FE9261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "..\..\GoogleDrive\[SDC]\[COSC604] Advanced Programming\COSC604_2022_03_25_Hash\HashTable\HashTable\HashTable.csproj", "{10FB40FA-768A-4A2C-95D4-9285A0CB2A04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85B9F57C-246D-4E72-B3BB-1B775B74D74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85B9F57C-246D-4E72-B3BB-1B775B74D74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85B9F57C-246D-4E72-B3BB-1B775B74D74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85B9F57C-246D-4E72-B3BB-1B775B74D74F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{12072136-3D7A-4239-B7B2-B16D13BECFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12072136-3D7A-4239-B7B2-B16D13BECFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12072136-3D7A-4239-B7B2-B16D13BECFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12072136-3D7A-4239-B7B2-B16D13BECFE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31B58B00-2209-4948-8B55-DCCE328C3405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31B58B00-2209-4948-8B55-DCCE328C3405}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31B58B00-2209-4948-8B55-DCCE328C3405}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31B58B00-2209-4948-8B55-DCCE328C3405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0183BB27-880A-4ED2-B17F-5AA7A0E6B83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0183BB27-880A-4ED2-B17F-5AA7A0E6B83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0183BB27-880A-4ED2-B17F-5AA7A0E6B83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0183BB27-880A-4ED2-B17F-5AA7A0E6B83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923BC52C-878A-4F56-B5F1-24499F8AD5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923BC52C-878A-4F56-B5F1-24499F8AD5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923BC52C-878A-4F56-B5F1-24499F8AD5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923BC52C-878A-4F56-B5F1-24499F8AD5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B600980-2668-4DF0-85D3-403D78FE9261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B600980-2668-4DF0-85D3-403D78FE9261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B600980-2668-4DF0-85D3-403D78FE9261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B600980-2668-4DF0-85D3-403D78FE9261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FB40FA-768A-4A2C-95D4-9285A0CB2A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FB40FA-768A-4A2C-95D4-9285A0CB2A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FB40FA-768A-4A2C-95D4-9285A0CB2A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FB40FA-768A-4A2C-95D4-9285A0CB2A04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
