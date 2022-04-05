@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DataStructuresCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DataStructuresCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStructuresCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataStructuresCommon/1.0.0": {
+      "type": "project",
+      "path": "../DataStructuresCommon/DataStructuresCommon.csproj",
+      "msbuildProject": "../DataStructuresCommon/DataStructuresCommon.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DataStructuresCommon >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mojahan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mojahan/Documents/OneDrive/OneDrive - Saskatchewan Polytechnic/Mo.Files/COSC604/Advanced DS/BST/BinarySearchTree/BinarySearchTree.csproj",
+      "projectName": "BinarySearchTree",
+      "projectPath": "/Users/mojahan/Documents/OneDrive/OneDrive - Saskatchewan Polytechnic/Mo.Files/COSC604/Advanced DS/BST/BinarySearchTree/BinarySearchTree.csproj",
+      "packagesPath": "/Users/mojahan/.nuget/packages/",
+      "outputPath": "/Users/mojahan/Documents/OneDrive/OneDrive - Saskatchewan Polytechnic/Mo.Files/COSC604/Advanced DS/BST/BinarySearchTree/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mojahan/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/Users/mojahan/Documents/OneDrive/OneDrive - Saskatchewan Polytechnic/Mo.Files/COSC604/Advanced DS/BST/DataStructuresCommon/DataStructuresCommon.csproj": {
+              "projectPath": "/Users/mojahan/Documents/OneDrive/OneDrive - Saskatchewan Polytechnic/Mo.Files/COSC604/Advanced DS/BST/DataStructuresCommon/DataStructuresCommon.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
