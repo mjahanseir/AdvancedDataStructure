@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DataStructuresCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataStructuresCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStructuresCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataStructuresCommon/1.0.0": {
+      "type": "project",
+      "path": "../DataStructuresCommon/DataStructuresCommon.csproj",
+      "msbuildProject": "../DataStructuresCommon/DataStructuresCommon.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DataStructuresCommon >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mojahan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mojahan/Downloads/DataStructuresCommon/LinkedList/LinkedList.csproj",
+      "projectName": "LinkedList",
+      "projectPath": "/Users/mojahan/Downloads/DataStructuresCommon/LinkedList/LinkedList.csproj",
+      "packagesPath": "/Users/mojahan/.nuget/packages/",
+      "outputPath": "/Users/mojahan/Downloads/DataStructuresCommon/LinkedList/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mojahan/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/mojahan/Downloads/DataStructuresCommon/DataStructuresCommon/DataStructuresCommon.csproj": {
+              "projectPath": "/Users/mojahan/Downloads/DataStructuresCommon/DataStructuresCommon/DataStructuresCommon.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
